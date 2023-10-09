@@ -1,9 +1,13 @@
-Description
+Modified RSA Cryptosystem Based on Offline Storage
+
+Description:-
+
 The RSA cryptosystem is one of the most commonly used public key algorithms for secure message transmission. In the RSA algorithm, two distinct keys are used to encrypt the message and decrypt the encrypted message. The public key is used to encrypt the data based on two prime numbers along with a number N. The public key can be passed to anyone along the network. To decrypt the message encrypted with public key, a private key is required. The public key and private key are generated using the two prime numbers which also need to kept secret. However, there is less security and time of computation is lengthy in RSA Algorithm.
 
 This project is an implementation of a Modified RSA algorithm described in IEEEXplore which use a third prime number in order to make a modulus n which is not easily decomposible by intruders. The key parameters of algorithm are stored locally before the computation on input message to increase the speed of computation.
 
-Modified RSA Algorithm
+Modified RSA Algorithm:-
+
 Consider these assumptions for the algorithm:
 
 P,Q and R are prime numbers
